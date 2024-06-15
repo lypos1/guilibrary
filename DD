@@ -1,4 +1,4 @@
-local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = ArrayField:CreateWindow({
    Name = "ArrayField Example Window",
