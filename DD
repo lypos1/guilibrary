@@ -34,19 +34,4 @@ local Window = ArrayField:CreateWindow({
    }
 })
 
-
-Window:Prompt({
-    Title = 'Interface Prompt',
-    SubTitle = 'SubTitle',
-    Content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    Actions = {
-        Accept = {
-            Name = 'Accept',
-            Callback = function()
-                print('Pressed')
-            end,
-        }
-    }
-})
-
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
