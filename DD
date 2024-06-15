@@ -26,6 +26,6 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local InformaitonTab = Window:CreateTab("Informaiton", 4483362458)
+local Tab = Window:CreateTab("Informaiton", 4483362458)
 
-local SpecialTab = Window:CreateTab("Special", 4483362458)
+local Tab = Window:CreateTab("Special", 15200206892)
